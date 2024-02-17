@@ -21,7 +21,7 @@
 
 I've taken a copy of [repository](https://github.com/tabular-io/docker-spark-iceberg) by Tabular.io in order not to spend tons of hours in connecting the dots.
 
-![Architecture](./PyCon_LT_Workshop/00.%20Introduction/pics/Setup.png)
+![Architecture](./Spark_Workshop/00.%20Introduction/pics/Setup.png)
 
 # Spark + Iceberg Quickstart Image
 
