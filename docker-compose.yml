@@ -30,7 +30,7 @@ services:
     volumes:
       - ./warehouse:/home/iceberg/warehouse
       - ./notebooks:/home/iceberg/notebooks/notebooks
-      - ./PyCon_LT_Workshop:/home/iceberg/notebooks/PyCon_LT_Workshop
+      - ./Spark_Workshop:/home/iceberg/notebooks/PyCon_LT_Workshop
     environment:
       - AWS_ACCESS_KEY_ID=admin
       - AWS_SECRET_ACCESS_KEY=password
