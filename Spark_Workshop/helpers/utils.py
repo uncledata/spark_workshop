@@ -22,4 +22,3 @@ def get_dim_data(spark:SparkSession) -> Union[DataFrame, DataFrame, DataFrame, D
     dim_payments = spark.read.option("header",True).csv(EXTRACTED_DATA_DIR+"dim_payments.csv")
     dim_vendor = spark.read.option("header",True).csv(EXTRACTED_DATA_DIR+"dim_vendor.csv")
     return dim_taxi_zones, dim_rates, dim_payments, dim_vendor
-    

@@ -5,3 +5,4 @@ jupysql==0.10.5
 matplotlib==3.8.2
 scipy==1.12.0
 duckdb-engine==0.11.1
+minio==7.2.4
