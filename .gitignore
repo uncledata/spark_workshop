@@ -191,4 +191,4 @@ notebooks
 .vscode
 
 Spark_Workshop/output
-Spark_Workshop/data
+Spark_Workshop/data/*.parquet
